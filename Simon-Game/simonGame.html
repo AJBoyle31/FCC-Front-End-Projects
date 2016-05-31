@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+  </head>
+  <body>
+    
+  <audio preload='auto' id='paddle1'>
+    <source src='https://s3.amazonaws.com/freecodecamp/simonSound1.mp3' type="audio/mpeg"></source>
+    Your browser does not support the audio element.
+  </audio>
+
+  <audio preload='auto' id='paddle2'>
+    <source src='https://s3.amazonaws.com/freecodecamp/simonSound2.mp3' type='audio/mpeg'></source>
+  </audio>
+
+  <audio preload='auto' id='paddle3'>
+    <source src='https://s3.amazonaws.com/freecodecamp/simonSound3.mp3' type='audio/mpeg'></source>
+  </audio>
+
+  <audio preload='auto' id='paddle4'>
+    <source src='https://s3.amazonaws.com/freecodecamp/simonSound4.mp3' type='audio/mpeg'></source>
+  </audio>
+
+    
+    <div class='containter'>
+    <div id="game">
+      <div id="a" class="paddles"></div>
+      <div id="b" class="paddles"></div>
+      <div id="c" class="paddles"></div>
+      <div id="d" class="paddles"></div>
+      
+      
+      <div id="gameface">
+        
+        <h5 id="title">Simon</h5>
+        <div class='row'>
+          <div class='col-lg-12'>
+        
+            <div id="counter"></div>
+        
+        
+            <button id="start"></button>
+        
+            <button id="strict"></button>
+            <h5 class='subheading' id='countername'>Counter</h5>
+            <h5 class='subheading' id='startname'>Start</h5>
+            <h5 class='subheading' id='strictname'>Strict</h5>
+            
+        </div>
+        </div>
+        
+        
+        <button id='onoff'>
+         <i id='power' class="fa fa-power-off fa-3x" ></i>
+        </button>
+        </div>
+      
+      </div>
+    </div>
+<div id='footer'>
+  <h5>Created by <a href='http://www.github.com/cthepants' target='_blank'>Andrew</a></h5>
+</div>
+
+</body>
+</html>
