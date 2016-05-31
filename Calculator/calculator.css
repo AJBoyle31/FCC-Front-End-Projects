@@ -1,0 +1,46 @@
+body {
+  background: black;
+}
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 400px;
+  height: 370px;
+  background: #3c4543;
+  border-radius: 25px;
+}
+.header {
+  text-align: center;
+  color: white;
+}
+
+.result {
+  border: 2px solid #004d99;
+  height: 30px;
+  margin-bottom: 10px;
+}
+#result {
+  text-align: right;
+  font-weight: bold;
+  color: white;
+  
+}
+
+table {
+  width: 100%;
+  
+}
+td {
+  width: 25%;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid black;
+  font-weight: bold;  
+  background: white;
+}
+td:hover {
+  background: #004d99;
+  color: white;
+  font-weight: bold;
+}
