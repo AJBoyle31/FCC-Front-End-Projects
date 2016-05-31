@@ -1,0 +1,39 @@
+body {
+  background: black;
+}
+#top h2 {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+#top {
+  text-align: center;
+}
+#random a {
+  text-decoration: none;
+  color: black;
+}
+.results {
+  background-color: #e6e6e6;
+  border: 2px solid black;
+  margin-top: 20px;
+  
+}
+.results:hover {
+  color: #008000;
+  
+}
+.title, .paragraph {
+  padding-left: 10px;
+  
+}
+
+.search {
+  margin-top: 25px;
+  text-align: center;
+}
+#nosearch {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  color: yellow;
+}
