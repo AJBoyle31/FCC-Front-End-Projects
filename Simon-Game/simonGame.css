@@ -1,0 +1,160 @@
+body{
+  background: gray;
+}
+
+#game {
+  height: 500px;
+  width: 500px;
+  background: black;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 5px solid black;
+}
+#a {
+  height: 185px;
+  width: 185px;
+  background: #cc0000;
+  border-radius: 100% 0 0 0;
+  position: relative;
+  left: 9%;
+  top: 9%;
+}
+#b {
+  height: 185px;
+  width: 185px;
+  background: #0000ff;
+  border-radius: 0 100% 0 0;
+  position: relative;
+  left: 55%;
+  top: -28%;
+  
+}
+
+#c {
+  height: 185px;
+  width: 185px;
+  background: #008000;
+  border-radius: 0 0 100% 0;
+  position: relative;
+  left: 55%;
+  top: -20%;
+}
+#d {
+  height: 185px;
+  width: 185px;
+  background: #cccc00;
+  border-radius: 0 0 0 100%;
+  position: relative;
+  top: -57%;
+  left: 9%;
+  
+}
+.paddles {
+  cursor: pointer;
+  border: 1px solid black;
+}
+#gameface {
+  height: 250px;
+  width: 250px;
+  background: white;
+  position: relative;
+  border-radius: 100%;
+  top: -125%;
+  left: 25%;
+  border: 20px solid black;
+  text-align: center;
+}
+
+#counter {
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  background: red;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: black;
+}
+
+#start {
+  height: 30px;
+  width: 30px;
+  background: yellow;
+  margin-top: 20px;
+  margin-left: 75px;
+  margin-right: 25px;
+  border: 2px solid black;
+  border-radius: 100%;
+  
+  
+}
+
+#strict {
+  height: 30px;
+  width: 30px;
+  background: yellow;
+  
+  border: 2px solid black;
+  border-radius: 100%;
+  
+  
+}
+
+#onoff {
+  
+  background: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  box-shadow: 2px 2px 2px black;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+#onoff i {
+  margin-top: 3px;
+  
+}
+#onoff:focus, #start:focus, #strict:focus {
+  outline: 0 !important;
+}
+#title {
+  font-size: 40px;
+  margin-top: 15px;
+}
+.subheading {
+  display: inline;
+  margin-left: 23px;
+  color: black;
+}
+#countername {
+  position: relative;
+  margin-left: 0;
+}
+#footer {
+  text-align: center;
+  color: black;
+  
+}
+#footer h5 a {
+  text-decoration: none;
+  color: #0059b3;
+}
+/*
+#a:hover {
+  background: #ff6666;
+}
+#b:hover {
+  background: #6666ff;
+}
+#c:hover {
+  background: #33ff33;
+}
+#d:hover {
+  background: #ffff66;
+}
+*/
