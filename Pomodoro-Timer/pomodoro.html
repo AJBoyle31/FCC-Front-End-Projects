@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Pomodoro</title>
+  </head>
+  
+  <body>
+    <div class="pomodoro">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 title">
+            <h2>Pomodoro Timer</h2>
+          </div>
+        </div>
+        <!-- this row holds the break length and work lengths with buttons to change the values
+        for their respective lengths -->
+        <div class="row">
+          <div class="col-xs-6 break">
+            <h3>Break Length</h3>
+            <h4 id="breakLength">5</h4>
+            <button type="button" id="breakPlus" >Increase</button>
+            <button type="button" id="breakMinus" >Decrease</button>
+          </div>
+          <div class="col-xs-6 work">
+            <h3>Work Length</h3>
+            <h4 class="workLength">25</h4>
+            <button type="button" id="workPlus">Increase</button>
+            <button type="button" id="workMinus">Decrease</button>
+          </div>
+        </div>
+        <!-- this row holds the countdown timer. a description will tell the user if it is the work or break portion of the pomodoro timer -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="session">
+              <h2 id="title">Time to Work</h2>
+              </br>
+            <h4 class="workLength" id="countdown">25</h4>
+          </div>
+        </div>
+      </div>
+      <!-- this row will hold the start, stop and resume buttons. only the appropriate button will be displayed i.e. start will begin the countdown, and then stop will appear. -->      
+      <div class="row">
+        <div class="col-lg-12 startstop">
+          <button type="button" id="start">Start</button>
+          <button type="button" id="stop" style="display:none">Stop</button>
+          <button type="button" id="resume" style="display:none">Resume</button>
+    </div>
+    </div>
+  </body>
+</html>
