@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+}
+
+#weather {
+  height: 900px;
+  background: url("http://leverhawk.com/wp-content/uploads/2013/09/iStock_000012580113Medium.jpg");
+  background-size: 100% 650px;
+  background-repeat: no-repeat;
+}
+#button, #search {
+  color: black;
+}
+#results {
+  margin-top: 40px;
+}
+.radiobuttons {
+  margin-top: 20px;
+  
+}
+#footer {
+  margin-top: 400px;
+  color: white;
+  text-shadow: none;
+}
+
+#footer a {
+  color: #1a75ff;
+}
