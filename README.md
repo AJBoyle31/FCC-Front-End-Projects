@@ -5,4 +5,4 @@ https://www.freecodecamp.com/cthepants/front-end-certification
 
 Each project was built on codepen.io.
 
-Please visit codepen.io/cthepants for the working versions.
+Please visit https://ajboyle.herokuapp.com/ for my personal portfolio website.
